@@ -16,6 +16,7 @@
                 "UNICODE",
                 "_UNICODE",
                 "USBCON",
+                "",
                 ""
             ],
             "compilerPath": "C:/MinGW/bin/g++.exe",
