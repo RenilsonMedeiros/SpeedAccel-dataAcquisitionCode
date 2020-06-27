@@ -15,7 +15,8 @@
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                "USBCON"
+                "USBCON",
+                ""
             ],
             "compilerPath": "C:/MinGW/bin/g++.exe",
             "cStandard": "c11",
