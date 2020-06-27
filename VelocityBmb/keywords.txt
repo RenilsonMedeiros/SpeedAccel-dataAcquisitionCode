@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For VelocityBmb
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+VelocityBmb	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+doTest	KEYWORD2
+getTime	KEYWORD2
+getDist	KEYWORD2
+getVel_MS	KEYWORD2
+getVel_KMS	KEYWORD2
+getAccel_MS	KEYWORD2
+getAccel_KMS	KEYWORD2
+
+###################################
+# Constants (LITERAL1)
+###################################
