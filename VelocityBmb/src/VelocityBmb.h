@@ -24,7 +24,7 @@ class VelocityBmb {
     
   public: //Será acessado dentro do nosso código, quando a biblioteca for importada.
     //Método Costrutor; Parâmetros: O pino de entrada dos dados dos sensores, em ordem) 
-    VelocityBmb(int l1, int l2, int l3, int l4, 
+    VelocityBmb(uint16_t l1, uint16_t l2, uint16_t l3, uint16_t l4, 
           float dist1, float dist2, float dist3); 
     void doTest();
     uint32_t getTime(int time);

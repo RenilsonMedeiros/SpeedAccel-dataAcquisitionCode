@@ -1,9 +1,6 @@
 #include <VelocityBmb.h>
-#include <iostream>
 
-using namespace std;
-
-VelocityBmb::VelocityBmb(int l1, int l2, int l3, int l4,
+VelocityBmb::VelocityBmb(uint16_t l1, uint16_t l2, uint16_t l3, uint16_t l4,
                   float dist1, float dist2, float dist3){
   _l1 = l1;
   _l2 = l2;
@@ -14,7 +11,7 @@ VelocityBmb::VelocityBmb(int l1, int l2, int l3, int l4,
   this->dist_l2_l3 = dist2;
   this->dist_l3_l4 = dist3;
 
-  int pinos[4] = {_l1, _l2, _l3, _l4};
+  uint16_t pinos[4] = {_l1, _l2, _l3, _l4};
   for(int i = 0; i < 4; i++){
   pinMode(pinos[i], INPUT);
   }
