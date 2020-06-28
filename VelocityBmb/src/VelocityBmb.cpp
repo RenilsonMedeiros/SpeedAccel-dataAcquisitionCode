@@ -59,6 +59,10 @@ uint32_t VelocityBmb::getTime(int time){
     return this->time3;
     break;
   
+  case 4:
+    return this->finalTime_test;
+    break;
+    
   default:
     return 0;
     break;
@@ -105,7 +109,7 @@ float VelocityBmb::getVel_MS(int vel){
   }
 }
 
-float VelocityBmb::getVel_KMS(int vel){
+float VelocityBmb::getVel_KMH(int vel){
   switch (vel){
   case 1:
     return this->vel1 * 1000 * 3.6f; //Converte para quilometros/hora
@@ -129,6 +133,6 @@ float VelocityBmb::getAccel_MS(){
   return this->accel * 1000000; //Converte para metros/segundos ao quadrado
 }
 
-float VelocityBmb::getAccel_KMS(){
+float VelocityBmb::getAccel_KMH(){
   return this->accel * 1000000 * (12960); //Converte para quilometros/hora ao quadrado
 }

@@ -6,7 +6,7 @@
 class VelocityBmb {
   
   private: //Será acessado apenas dentro dessa biblioteca.
-    int _l1, _l2, _l3, _l4;  //Guarda o valor do pino de cada sensores.
+    uint16_t _l1, _l2, _l3, _l4;  //Guarda o valor do pino de cada sensores.
     float _dist;             //Variável auxiliar para o cálculo da distância.
 
     uint32_t startTime_test;
@@ -29,10 +29,10 @@ class VelocityBmb {
     void doTest();
     uint32_t getTime(int time);
     float getDist(int dist);
-    float getVel_KMS(int vel);
+    float getVel_KMH(int vel);
     float getVel_MS(int vel);
     float getAccel_MS();
-    float getAccel_KMS();
+    float getAccel_KMH();
 };
 
 #endif

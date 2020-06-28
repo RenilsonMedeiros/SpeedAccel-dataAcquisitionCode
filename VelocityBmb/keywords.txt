@@ -16,9 +16,9 @@ doTest	KEYWORD2
 getTime	KEYWORD2
 getDist	KEYWORD2
 getVel_MS	KEYWORD2
-getVel_KMS	KEYWORD2
+getVel_KMH	KEYWORD2
 getAccel_MS	KEYWORD2
-getAccel_KMS	KEYWORD2
+getAccel_KMH	KEYWORD2
 
 ###################################
 # Constants (LITERAL1)
